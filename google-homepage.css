@@ -1,0 +1,104 @@
+body { 
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;  
+    background-color: rgb(255,255,255); 
+}
+/* Links */
+a:link { 
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+} 
+
+a:visited {
+    color: black;
+    background-color: transparent;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 20px;
+}
+/* Nav Bar */
+.nav-bar a {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#navleft a {
+    float: left;   
+}
+
+#navright a {
+    float: right;
+}
+/* Logo */
+.logo {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+/* Search Bar */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    padding: 10px;
+    box-shadow: black 2px;
+}
+
+form input {
+    padding: 10px;
+    width: 400px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245,245,245);
+    height: 50px;
+    padding: 40px;
+    border-top: 1px solid black;
+    
+}
+
+#leftfooter {
+    margin-left: 20px;
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+}
+
+#rightfooter {
+    margin-right: 50px;
+    margin-top: 15px;
+    float: right;
+    text-align: center;
+}
+
+p {
+    
+    bottom: 60px;
+    height: 40px;
+    padding: 15px 0px 0px 10px;
+    background-color: rgb(245, 245, 245);
+    border-bottom:1px solid black;
+    
+}
